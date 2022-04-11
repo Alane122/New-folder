@@ -14,13 +14,22 @@ nav{
   height: 80px;
   width: 100%;
 }
-label.header{
+.header{
   color: white;
   font-size: 35px;
   line-height: 70px;
   padding: 0 100px;
   font-weight: bold;
+  animation: color 5s infinite;
 }
+@keyframes color{
+  0% {color: rgb(221, 18, 18)}
+  25% {color: rgb(167, 21, 211)}
+  50% {color: rgb(21, 47, 192)}
+  75% {color: rgb(21, 192, 78)}
+  100% {color: rgb(219, 208, 46)}
+}
+
 nav ul{
   float: right;
   margin-right: 20px;
