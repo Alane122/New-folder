@@ -109,9 +109,9 @@ a.active,a:hover{
     
 }
 img{
-    width: 450px;
-    height:400px;
-    padding: 0 10px 0 0;
+    width: 400px;
+    height:350px;
+    padding: 10px 10px 10px 10px;
     float: left;
 }
 text{
@@ -198,4 +198,22 @@ float:left;
 width: 51%;
 display:block;
 margin: 5px;
+}
+.text{
+    font-size: 20px;
+}
+.text3{
+  font-size: 15px;
+}
+.column1{
+  font-size: 18px;
+
+}
+.column2{
+  font-size: 18px;
+
+}
+.column3{
+  font-size: 18px;
+
 }
