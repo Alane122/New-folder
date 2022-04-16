@@ -7,7 +7,7 @@
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  background-color: blightgray;
 }
 nav{
   background: rgba(43, 95, 129, 0.842);
@@ -179,22 +179,24 @@ background: white;
   margin-right: 35%;
 }
 .text3{
-  text-align: justify;
+  float: left;
+  margin: 20px;
+  margin-right: 35%;text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
-.csy1018 {
+.csy1018a {
    width: 50%;
    display:block;
    margin: 5px;
   }
-.csy1019 {
+.csy1018b {
    width:50%;
    display: block;
    float: right;
    margin: 5px;
 
 }
-.csy1017 {
+.csy1018c {
 float:left;
 width: 51%;
 display:block;
@@ -231,3 +233,23 @@ p:first-letter {
   font-weight: bold;
   font-size: 2em;
    }
+
+@keyframes spin{
+    from{transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+ }
+ .rotate{
+    animation: spin 4s infinite;
+  }
+  .column4{
+  
+    display: flex;
+    gap: 1.5em;
+   padding: 40px;
+  }
+  .column5{
+ 
+    display: flex;
+    gap: 1.5em;
+    padding: 40px;
+  }
