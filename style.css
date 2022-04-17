@@ -7,7 +7,7 @@
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: blightgray;
+  background-color: lightgray;
 }
 nav{
   background: rgba(43, 95, 129, 0.842);
@@ -253,3 +253,9 @@ p:first-letter {
     gap: 1.5em;
     padding: 40px;
   }
+h2{
+  margin: 15px;
+}
+h3{
+  margin: 60px;
+}
