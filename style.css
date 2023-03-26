@@ -6,11 +6,11 @@
   box-sizing: border-box;
 }
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #bbcbec;
 }
 nav{
-  background: rgba(43, 95, 129, 0.842);
+  background: #222831;
   height: 80px;
   width: 100%;
 }
@@ -23,11 +23,11 @@ nav{
   animation: color 5s infinite;
 }
 @keyframes color{
-  0% {color: rgb(221, 18, 18)}
-  25% {color: rgb(167, 21, 211)}
-  50% {color: rgb(21, 47, 192)}
-  75% {color: rgb(21, 192, 78)}
-  100% {color: rgb(219, 208, 46)}
+  0% {color: #EC4899}
+  25% {color: #FFA722}
+  50% {color: #2F80ED}
+  75% {color: #27AE60}
+  100% {color: #9B51E0}
 }
 
 nav ul{
@@ -45,9 +45,11 @@ nav ul li a{
   padding: 8px 14px;
   border-radius: 3px;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
 }
 a.active,a:hover{
-  background:rgba(43, 95, 129, 0.493);
+  background:#2F80ED;
   transition: .5s;
 }
 .checkbtn{
@@ -115,8 +117,11 @@ img{
     float: left;
 }
 text{
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
 }
 .container1{
   margin: 80px;
@@ -131,6 +136,7 @@ text{
 .conta{
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif
+  
 }
 form {
   display: grid;
@@ -150,7 +156,7 @@ input[type="submit"] {
 }
 .h1{
     font-size: 2em;
-    font-weight: bold;
+  
 }
 .column1{
   background: #404444;
@@ -229,11 +235,6 @@ padding: 35px 5px 20px 20px;
 gap: 1.5em;
 padding: 25px 5px 20px 20px;
 }
-p:first-letter {
-  font-weight: bold;
-  font-size: 2em;
-   }
-
 @keyframes spin{
     from{transform: rotateY(0deg);}
     to {transform: rotateY(360deg);}
@@ -258,4 +259,7 @@ h2{
 }
 h3{
   margin: 60px;
+}
+h5{
+  margin: 5px;
 }
